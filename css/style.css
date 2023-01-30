@@ -203,3 +203,49 @@ main {
 .column-inner .column .footer-column .check-blue i {
     color: #0059ff;
 }
+
+.under-column {
+    margin-top: 100px;
+    border: 1px solid grey;
+}
+
+.under-column #Team-pack {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 15px;
+    border-bottom: 1px solid grey;
+    gap: 30px;
+}
+
+.under-column #contact-uff {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px 0px 20px;
+}
+
+.under-column button {
+    padding: 10px 50px;
+}
+
+.under-column #contact-uff #uff-vendite {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.under-column #contact-uff #uff-vendite h3 {
+    font-size: 30px;
+}
+
+#team-pack-end {
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+#team-pack-info {
+    display: flex;
+
+    flex-direction: column;
+    gap: 50px;
+}
