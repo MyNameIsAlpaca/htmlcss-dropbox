@@ -14,6 +14,16 @@ body {
     padding-top: 70px;
 }
 
+.center-column {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.center {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .navbar {
     background-color: white;
     width: 100vw;
@@ -53,7 +63,7 @@ main {
 
 .main-header {
     background-color: #b4d0e7;
-    width: 100vw;
+    width: 100%;
 }
 
 .main-header h1 {
@@ -91,4 +101,105 @@ main {
 
 .main-header .center-top .jumbo img {
     max-width: 100%;
+}
+
+.top-column {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 70px;
+    padding-top: 170px;
+}
+
+.top-column .fatturazione #blue i:first-child {
+    color: #0059ff;
+}
+
+.top-column .fatturazione {
+    display: flex;
+    gap: 20px;
+}
+
+.top-column h2 {
+    font-size: 40px;
+}
+
+.main-column {
+    display: flex;
+}
+
+.main-column .column-inner {
+    display: flex;
+    margin: auto;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.main-column .column-inner .column {
+    display: flex;
+    width: 30%;
+    flex-flow: column wrap;
+    margin-top: 100px;
+    border: 1px solid gray;
+    flex-grow: 1;
+}
+
+.main-column .column-inner .column .type-column {
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    gap: 5px;
+    font: 10px;
+}
+
+.main-column .column-inner .column .middle-column {
+    display: flex;
+    flex-flow: column;
+    gap: 50px;
+}
+
+.main-column .column-inner .column .center-column .first-info {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.main-column .column-inner .column .center-column .first-info span {
+    font-weight: bold;
+}
+
+.main-column .column-inner .column .center-column .first-info .tempo {
+    color: grey;
+}
+
+.column-inner .column .center-column .second-info {
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+
+.column-inner .column hr {
+    max-width: 50px;
+}
+
+.column-inner .column .center-column button {
+    max-width: 95%;
+    padding: 15px 60px;
+    align-self: center;
+    font-size: 15px;
+}
+
+.column-inner .column .footer-column {
+    padding-top: 70px;
+    display: flex;
+    flex-flow: column wrap;
+    width: 85%;
+    gap: 30px;
+    margin-bottom: 70px;
+}
+
+.column-inner .column .footer-column .check-blue i {
+    color: #0059ff;
 }
