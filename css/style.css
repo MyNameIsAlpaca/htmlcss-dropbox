@@ -190,10 +190,10 @@ main {
 }
 
 .column-inner .column .center-column button {
-    max-width: 95%;
-    padding: 15px 60px;
+    width: 95%;
+    padding: 15px 25px;
     align-self: center;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .column-inner .column .footer-column {
@@ -230,7 +230,8 @@ main {
 }
 
 .under-column button {
-    padding: 10px 50px;
+    max-height: 40px;
+  
 }
 
 .under-column #contact-uff #uff-vendite {
@@ -246,11 +247,73 @@ main {
 #team-pack-end {
     padding-left: 20px;
     padding-bottom: 50px;
+    max-width: 60%;
 }
 
 #team-pack-info {
     display: flex;
-
     flex-direction: column;
     gap: 50px;
+}
+
+.under-column {
+    margin-bottom: 200px;
+}
+
+.partner {
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.partner .partner-info {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: calc(100% / 2);
+    gap: 20px;
+    max-width: 40%;
+    padding: 50px;
+}
+
+.partner .partner-info button {
+    align-self: flex-start;
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 10px;
+}
+
+
+.partner .partner-img img {
+    width: 100%;
+}
+
+.dropbox-business-inner .business-card {
+    max-width: calc(100% / 3 - 20px);
+}
+
+.dropbox-business-inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.dropbox-business h2 {
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+
+.dropbox-business-inner .business-card {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+}
+.dropbox-business-inner .business-card img {
+    max-width: 100%;
+}
+
+.dropbox-business-inner .business-card h4 {
+    font-size: 20px;
+}
+
+.dropbox-business {
+    margin-bottom: 200px ;
 }
