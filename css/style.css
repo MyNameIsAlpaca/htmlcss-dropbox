@@ -412,3 +412,26 @@ main {
     max-width: 100px;
 }
 
+.under-square {
+    background-color: #b4d0e7 ;
+}
+
+.under-square .try-it {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    align-items: center;
+}
+
+.under-square .try-it h2 {
+    font-size: 30px;
+    max-width: 50%;
+    color: #61082b;
+}
+
+.under-square .try-it button {
+    background-color: white;
+    border: 0;
+    padding: 10px 25px;
+}
+
