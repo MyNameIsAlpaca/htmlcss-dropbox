@@ -317,3 +317,98 @@ main {
 .dropbox-business {
     margin-bottom: 200px ;
 }
+
+.howmuch {
+    display: flex;
+    flex-flow: column;
+    gap: 70px;
+    margin-bottom: 200px;
+}
+
+.howmuch h2 {
+    max-width: 70%;
+    font-size: 35px;
+}
+
+.square-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.square-left, .square-right {
+    display: flex;
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    flex-wrap: wrap;
+}
+
+.square-middle {
+    display: flex;
+    flex:1;
+    background-color: #f5f5f5;
+    color: rgb(46, 45, 45);
+}
+
+.square {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square img {
+    max-width: 60%;
+    -webkit-filter: invert(100%);
+}
+
+.light-green {
+    background-color: #a2d39b ;
+    border: 20px #d1e9cd solid ;
+}
+
+.darkred {
+    background-color: #61082b;
+}
+
+.light_blue {
+    background-color: #0093ce;
+}
+
+.red_one {
+   background-color:#ff1c1c; 
+}
+
+.red_two {
+    background-color: #d5001f;
+} 
+
+.light_blue_two {
+    background-color:#b4d0e7;
+} 
+
+.blue {
+    background-color: #0d2481;
+}
+
+.yellow {
+    background-color: #ffd830;
+}
+
+.square-middle-info {
+    margin: 40px auto;
+    max-width: 80%;
+    max-height: 80%;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 50px;
+}
+
+.square-middle-info img {
+    max-width: 55%;
+}
+
+.square-middle-info hr {
+    max-width: 100px;
+}
+
