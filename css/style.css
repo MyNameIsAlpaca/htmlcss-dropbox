@@ -9,7 +9,7 @@ body {
 }
 
 .center-top {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     padding-top: 70px;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 .center {
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -132,7 +132,7 @@ main {
     margin: auto;
     flex-flow: row wrap;
     justify-content: space-between;
-    gap: 60px;
+    gap: 45px;
 }
 
 .main-column .column-inner .column {
