@@ -180,6 +180,11 @@ main {
     gap: 20px;
 }
 
+.column-inner .column .center-column .second-info div{
+    display: flex;
+    gap: 6px;
+}
+
 .column-inner .column hr {
     max-width: 50px;
 }
