@@ -470,3 +470,51 @@ main {
 .faq-inner .faq-container .faq:last-child {
     border-bottom: 1px solid black;
 }
+
+.last-section{
+    background-color: black;
+    color: white;
+    height: 50vh;
+}
+
+.last-section .list-inner {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.last-section .list-inner .list-container {
+    display: flex;
+    gap: 80px;
+}
+
+.list-container .list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 40px;
+}
+
+.last-section hr {
+    max-width: 110px;
+    margin-bottom: 40px;
+}
+
+
+.list-container .list ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 15px;
+}
+
+.list-container .list h4 {
+    font-size: 25px;
+}
+
+.lingua {
+    display: flex;
+    gap: 10px;
+    color: gray;
+}
