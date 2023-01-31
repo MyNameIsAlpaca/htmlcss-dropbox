@@ -435,3 +435,38 @@ main {
     padding: 10px 25px;
 }
 
+.faq-section {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-inner {
+    width: 50%;
+    height: 50%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.faq-inner h2 {
+    font-size: 40px;
+}
+
+.faq-inner .faq-container .faq {
+    border-top: 1px solid black;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-inner .faq-container .faq .fa-chevron-down {
+    font-size: 15px;
+    padding-right: 40px;
+}
+
+.faq-inner .faq-container .faq:last-child {
+    border-bottom: 1px solid black;
+}
