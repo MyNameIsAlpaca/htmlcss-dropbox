@@ -5,7 +5,11 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button:hover {
+cursor: pointer;
 }
 
 .center-top {
@@ -34,6 +38,7 @@ body {
     padding:30px 20px;
     position: fixed;
     z-index: 3;
+    border-bottom: 1px solid lightgrey;
 }
 
 .nav-left, .nav-right {
@@ -85,9 +90,30 @@ main {
     gap: 40px;
 }
 
+.nav-left span:hover, .nav-right span:hover {
+    cursor: pointer;
+    border-bottom: 2px grey solid;
+    height: 61px;
+    line-height: 61px;
+}
+
 .head-info .head-description button {
     align-self: flex-start;
 }
+
+.head-info .head-description a {
+    color:black;
+    width: 30px;
+}
+
+.head-info .head-description a:hover {
+color: red;
+}
+
+.head-info .head-description a:visited {
+    color: black;
+}
+
 
 .head-info .head-description i {
     font-size: 50px;
@@ -442,6 +468,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .faq-inner {
@@ -457,20 +484,53 @@ main {
     font-size: 40px;
 }
 
-.faq-inner .faq-container .faq {
-    border-top: 1px solid black;
-    padding: 40px 0px;
+.faq {
+    position: relative;
+}
+
+.faq-visible {
     display: flex;
     justify-content: space-between;
+    padding: 50px 0;
+    border-top: 1px solid black;
 }
 
-.faq-inner .faq-container .faq .fa-chevron-down {
-    font-size: 15px;
-    padding-right: 40px;
+.faq:hover {
+    cursor: pointer;
 }
 
-.faq-inner .faq-container .faq:last-child {
+.faq:hover .fa-chevron-up{
+    display: flex;
+}
+
+.faq:hover .fa-chevron-down{
+    display: none;
+}
+
+.faq-hidden .fa-chevron-up {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    padding: 50px 0;
+    display: none;
+}
+
+.faq .faq-hidden span {
+    display: none;
+}
+
+.faq:hover span {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.faq-visible .fa-chevron-down {
+    padding-right: 20px;
+}
+
+.faq-container .faq:last-child {
     border-bottom: 1px solid black;
+    margin-bottom: 50px;
 }
 
 .last-section{
