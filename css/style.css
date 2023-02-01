@@ -347,6 +347,7 @@ main {
     flex:1;
     background-color: #f5f5f5;
     color: rgb(46, 45, 45);
+    max-height: calc(100vw / 3);
 }
 
 .square {
@@ -400,8 +401,9 @@ main {
     max-width: 80%;
     max-height: 80%;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     gap: 50px;
+    overflow-y: auto;
 }
 
 .square-middle-info img {
